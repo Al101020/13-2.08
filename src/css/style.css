@@ -1,0 +1,202 @@
+body {
+    /* padding-right: auto; */
+    background: fffff0;
+}
+
+.ticket-btn-add {
+    display: flex;
+    background: rgb(189, 246, 189);
+    justify-content: flex-end;
+    /* float: right; */
+    /* margin-right: 100%; */
+    margin-left: auto;
+    margin-bottom: 10px;
+    height: 40px;
+
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+
+    border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    text-align: right;
+}
+
+.ticket-element {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 10px 5px;
+    background-color: rgb(205, 250, 235);
+}
+
+.ticket {
+    display: flex;
+    content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0px 15px 0px 0px;
+}
+
+.checkbox-done, .button-x, .button-edit {
+    border: 1px solid #000;
+    margin: 5px 10px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;  
+}
+
+.button-x, .button-edit {
+    background-color: aliceblue;
+}
+
+.button-x, .button-edit, .ticket-btn-add, .checkbox-input {
+    cursor: pointer;
+}
+.button-edit {
+    background-color: rgb(203, 233, 243);
+}
+
+.button-x {
+    background-color: rgb(223, 203, 243);
+}
+
+/* .modal-overlay {
+    opacity: 1;
+} */
+
+/* --- ModalAdd --- */
+.modal-title, .created {
+    padding: 2px auto;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.description {
+    margin: 15px 10px 10px 50px ;
+    /* display: none; */
+}
+
+
+.display-none {
+    display: none;
+}
+
+.modal-add {
+    border: 1px solid #000;
+    min-width: 300px;
+    min-height: 20px;
+    border-radius: 10px;
+    margin: 0px 10%;
+    background-color: rgb(189, 246, 189);
+    /* background-color: rgb(223, 203, 243); */
+
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1010;
+}
+
+.modal-overlay {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgb(255, 255, 255);
+    opacity: 0.5;
+  }
+
+
+.div-form {
+    padding: 3px 23px 3px 15px;
+}
+
+.d, .dd {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+input.d {
+    height: 25px;
+}
+
+input.dd {
+    height: 50px;
+}
+
+.div-button {
+    padding: 3px 0px;
+    text-align: right;
+}
+
+.btn-ok {
+    margin: 0px 0px 0px 5px;
+    min-height: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.btn-cancel {
+    margin: 0px 5px 0px 0px;
+    min-height: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* --- ModalEdit --- */
+
+.modal-edit {
+    border: 1px solid #000;
+    min-width: 300px;
+    min-height: 20px;
+    border-radius: 10px;
+    margin: 0px 10%;
+    background-color: rgb(203, 233, 243);
+
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1010;
+}
+
+/* --- ModalDelete --- */
+
+.modal-delete {
+    border: 1px solid #000;
+    min-width: 300px;
+    min-height: 20px;
+    border-radius: 10px;
+    margin: 0px 10%;
+    background-color: rgb(223, 203, 243);
+
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1010;
+}
+
+.text-del {
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
